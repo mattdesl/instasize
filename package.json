@@ -1,0 +1,36 @@
+{
+  "name": "instasize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "jimp": "^0.5.3",
+    "micro": "^9.3.3"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "internal-ip": "^3.0.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "test-listen": "^1.1.0"
+  },
+  "scripts": {
+    "start": "micro",
+    "test": "ava test.js"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/instasize.git"
+  },
+  "homepage": "https://github.com/mattdesl/instasize",
+  "bugs": {
+    "url": "https://github.com/mattdesl/instasize/issues"
+  }
+}
